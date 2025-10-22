@@ -55,12 +55,12 @@ const Projects = () => {
             <Card key={index} className="p-6 flex flex-col card-hover bg-card border-border">
               <div className="mb-4">
                 <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-xl font-bold">{project.title}</h3>
+                  <h3 className="text-xl font-bold text-foreground">{project.title}</h3>
                   <a 
                     href={project.github} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-primary hover:text-primary/80 transition-colors"
+                    className="text-primary hover:text-primary/70 transition-colors"
                   >
                     <Github className="h-5 w-5" />
                   </a>

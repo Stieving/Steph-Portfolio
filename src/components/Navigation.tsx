@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -17,10 +18,11 @@ const Navigation = () => {
 
   const navItems = [
     { label: "About", href: "#about" },
+    { label: "Service", href: "#services" },
     { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
-    { label: "Contact", href: "#contact" },
+    { label: "Blog", href: "#blog" },
   ];
 
   return (
@@ -32,7 +34,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="text-xl font-bold">
-            <span className="gradient-text">&lt;Dev/&gt;</span>
+            <img src="/IMG_3156.png" alt="Vivek Choudhary" className="w-12 h-12 rounded-full" />
           </a>
 
           {/* Desktop Navigation */}
@@ -41,23 +43,27 @@ const Navigation = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-foreground/80 hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors font-medium"
               >
                 {item.label}
               </a>
             ))}
+            <ThemeToggle />
             <Button size="sm" className="glow-effect" asChild>
-              <a href="/Vivek_Choudhary_Resume.pdf" download>Download Resume</a>
+              <a href="#contact">Contact Me</a>
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-foreground"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile Menu Button and Theme Toggle */}
+          <div className="md:hidden flex items-center gap-3">
+            <ThemeToggle />
+            <button
+              className="text-foreground"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -68,15 +74,15 @@ const Navigation = () => {
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-foreground/80 hover:text-primary transition-colors"
+                  className="text-foreground hover:text-primary transition-colors font-medium"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.label}
                 </a>
               ))}
               <Button size="sm" className="glow-effect w-full" asChild>
-                <a href="/Vivek_Choudhary_Resume.pdf" download onClick={() => setIsMobileMenuOpen(false)}>
-                  Download Resume
+                <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>
+                  Contact Me
                 </a>
               </Button>
             </div>
