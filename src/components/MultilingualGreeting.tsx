@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 
 const greetings = [
-  { text: "Hello, I'm Vivek", lang: "English" },
-  { text: "Hallo, ich bin Vivek", lang: "German" },
-  { text: "Ciao, sono Vivek", lang: "Italian" },
-  { text: "Hola, soy Vivek", lang: "Spanish" },
-  { text: "Bonjour, je suis Vivek", lang: "French" },
-  { text: "こんにちは、私は Vivek です", lang: "Japanese" },
-  { text: "Привет, меня зовут Вивек", lang: "Russian" },
-  { text: "你好，我是 Vivek", lang: "Chinese" },
-  { text: "שלום אני ויווק", lang: "Hebrew" },
+  { text: "Hello, I'm Steph", lang: "English" },
+  { text: "Hallo, ich bin Steph", lang: "German" },
+  { text: "Ciao, sono Steph", lang: "Italian" },
+  { text: "Hola, soy Steph", lang: "Spanish" },
+  { text: "Bonjour, je suis Steph", lang: "French" },
+  { text: "こんにちは、私は Steph です", lang: "Japanese" },
+  { text: "Привет, меня зовут Стеф", lang: "Russian" },
+  { text: "你好，我是 Steph", lang: "Chinese" },
+  { text: "שלום, אני סטף", lang: "Hebrew" },
 ];
 
 const MultilingualGreeting = () => {

@@ -109,7 +109,7 @@ const Contact = () => {
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to_email: 'iamvivekchoudhary77@gmail.com'
+          to_email: 'etyz1001@gmail.com'
         },
         publicKey
       );
@@ -154,10 +154,10 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
                     <a 
-                      href="mailto:iamvivekchoudhary77@gmail.com"
+                      href="mailto:etyz1001@gmail.com"
                       className="text-foreground hover:text-primary transition-colors font-semibold"
                     >
-                      iamvivekchoudhary77@gmail.com
+                      etyz1001@gmail.com
                     </a>
                   </div>
                 </div>
@@ -169,10 +169,10 @@ const Contact = () => {
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
                     <a 
-                      href="tel:+15084109399"
+                      href="tel:+2348110173355"
                       className="text-foreground hover:text-primary transition-colors font-semibold"
                     >
-                      +1 (508) 410-9399
+                      08110173355
                     </a>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="text-foreground font-semibold">Boston, Massachusetts, USA</p>
+                    <p className="text-foreground font-semibold">Kwara State,Nigeria</p>
                   </div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const Contact = () => {
                 <h4 className="text-lg font-semibold mb-4 text-foreground">Follow Me</h4>
                 <div className="space-y-3">
                   <a 
-                    href="https://github.com/VivekChoudhary77"
+                    href="https://github.com/Stieving"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
@@ -205,7 +205,7 @@ const Contact = () => {
                   </a>
 
                   <a 
-                    href="https://linkedin.com/in/vivek-choudhary-"
+                    href="https://linkedin.com/in/stephen-seyi-olaore"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
@@ -216,8 +216,8 @@ const Contact = () => {
                     <span className="text-sm font-medium">LinkedIn</span>
                   </a>
 
-                  <a 
-                    href="https://medium.com/@iamvivekchoudhary77"
+                  {/* <a 
+                    href=""
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-foreground hover:text-primary transition-colors"
@@ -226,7 +226,7 @@ const Contact = () => {
                       <BookOpen className="h-4 w-4 text-primary" />
                     </div>
                     <span className="text-sm font-medium">Medium</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -360,7 +360,7 @@ const Contact = () => {
                 </Button>
 
                 {/* Schedule a Call Button */}
-                <div className="mt-4 text-center">
+                {/* <div className="mt-4 text-center">
                   <p className="text-sm text-muted-foreground mb-3">
                     Or prefer a direct conversation?
                   </p>
@@ -371,7 +371,7 @@ const Contact = () => {
                     asChild
                   >
                     <a 
-                      href="https://calendly.com/vivek_choudhary/30min"
+                      href="https://calendly.com/stephen-olaore/30min"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -379,7 +379,7 @@ const Contact = () => {
                       Schedule a Call
                     </a>
                   </Button>
-                </div>
+                </div> */}
               </form>
             </div>
           </div>

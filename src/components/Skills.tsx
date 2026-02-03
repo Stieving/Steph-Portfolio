@@ -40,11 +40,10 @@ const skillCategories = [
     icon: Code,
     color: "bg-blue-500/10 text-blue-500 border-blue-500/20",
     skills: [
-      { name: "Python", icon: Python, experience: "2y+", description: "AI/ML, automation, APIs" },
+      { name: "Python", icon: Python, experience: "4y+", description: "AI/ML, automation, APIs" },
       { name: "JavaScript", icon: JavaScript, experience: "3y+", description: "Full-stack, React, Vue.js" },
       { name: "TypeScript", icon: TypeScript, experience: "2y+", description: "Enterprise React/Next.js" },
       { name: "Java", icon: Java, experience: "1y+", description: "Spring Boot, enterprise" },
-      { name: "C#", icon: CSharp, experience: "2y+", description: "Systems, algorithms" },
       { name: "SQL", icon: MySQL, experience: "2y+", description: "Database design, queries" }
     ]
   },
@@ -114,7 +113,7 @@ const skillCategories = [
 ];
 
 const summaryStats = [
-  { icon: Code, count: "6+", label: "Languages" },
+  { icon: Code, count: "5+", label: "Languages" },
   { icon: Brain, count: "6+", label: "AI/ML Tools" },
   { icon: Database, count: "9+", label: "Dev Frameworks" },
   { icon: Cloud, count: "6+", label: "Cloud Tech" }

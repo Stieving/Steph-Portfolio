@@ -22,7 +22,7 @@ const Navigation = () => {
     { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
-    { label: "Blog", href: "#blog" },
+    // { label: "Blog", href: "#blog" },
   ];
 
   return (
@@ -34,7 +34,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="text-xl font-bold">
-            <img src="/IMG_3156.png" alt="Vivek Choudhary" className="w-12 h-12 rounded-full" />
+            <img src="/Steph emo.png" alt="Stephen Seyi-Olaore" className="w-12 h-12 rounded-full" />
           </a>
 
           {/* Desktop Navigation */}

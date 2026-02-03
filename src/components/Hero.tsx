@@ -14,11 +14,11 @@ const Hero = () => {
               <MultilingualGreeting />
             </h1>
             <p className="text-xl md:text-2xl text-foreground mb-4 font-semibold">
-              Full Stack Engineer & AI Engineer
+              Full Stack Engineer & Graphics Designer
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl lg:max-w-none mb-8 leading-relaxed">
-              Architecting scalable solutions at the intersection of full-stack development and artificial intelligence. 
-              From building enterprise systems to deploying cutting-edge ML models, I transform complex problems into elegant, impactful solutions.
+              Building modern web applications powered by solid full-stack engineering and elevated by thoughtful graphic design. 
+              I bridge logic and aesthetics to create scalable, high-performing, and visually striking digital experiences.
             </p>
           </div>
 
@@ -27,8 +27,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <img
-                  src="/profile-placeholder.jpg"
-                  alt="Vivek Choudhary"
+                  src="/Steph.png"
+                  alt="Stephen Seyi Olaore"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -43,7 +43,7 @@ const Hero = () => {
         <div className="text-center mt-12">
           <div className="flex gap-4 justify-center mb-8 flex-wrap animate-slide-up">
             <Button size="lg" className="glow-effect group" asChild>
-              <a href="/Vivek_Choudhary_Resume.pdf" download>
+              <a href="/Seyi-Olaore Stephen.pdf" download>
                 <FileText className="mr-2 h-5 w-5 group-hover:animate-pulse" />
                 Download Resume
               </a>
@@ -53,7 +53,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex gap-4 justify-center mb-12 animate-slide-up">
             <a
-              href="https://github.com/VivekChoudhary77"
+              href="https://github.com/Stieving"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
@@ -61,23 +61,23 @@ const Hero = () => {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com/in/vivek-choudhary-"
+              href="https://linkedin.com/in/stephen-seyi-olaore"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
             >
               <Linkedin className="h-5 w-5" />
             </a>
-            <a
-              href="https://medium.com/@iamvivekchoudhary77"
+            {/* <a
+              href="https://medium.com/@"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
             >
               <BookOpen className="h-5 w-5" />
-            </a>
+            </a> */}
             <a
-              href="mailto:iamvivekchoudhary77@gmail.com"
+              href="mailto:etyz1001@gmail.com"
               className="p-3 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
             >
               <Mail className="h-5 w-5" />

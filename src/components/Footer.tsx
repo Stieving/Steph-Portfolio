@@ -9,15 +9,15 @@ const Footer = () => {
           <div className="text-center md:text-left md:col-span-6">
             <div className="mb-4">
               <a href="#" className="inline-block">
-                <img src="/IMG_3157.png" alt="Vivek Choudhary" className="w-16 h-16 rounded-full mx-auto md:-ml-1 hover:scale-105 transition-transform cursor-pointer" />
+                <img src="/Steph emoji.png" alt="Stephen Seyi-Olaore" className="w-16 h-16 rounded-full mx-auto md:-ml-1 hover:scale-105 transition-transform cursor-pointer" />
               </a>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-              Ready to collaborate on something extraordinary? I'm always excited to connect with fellow innovators, explore cutting-edge projects, and push the boundaries of what's possible with technology. Let's build the future together.
+              Ready to collaborate on something extraordinary? <br /> I'm always excited to connect with fellow innovators, explore cutting-edge projects, and push the boundaries of what's possible with technology. <br /> This is where clean code meets strong design. Always open to meaningful collaborations.
             </p>
             <div className="flex gap-3 justify-center md:justify-start mt-4">
             <a
-              href="https://github.com/VivekChoudhary77"
+              href="https://github.com/Stieving"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
@@ -26,7 +26,7 @@ const Footer = () => {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href="https://linkedin.com/in/vivek-choudhary-"
+              href="https://linkedin.com/in/stephen-seyi-olaore"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
@@ -35,7 +35,7 @@ const Footer = () => {
               <Linkedin className="h-4 w-4" />
             </a>
             <a
-              href="mailto:iamvivekchoudhary77@gmail.com"
+              href="mailto:etyz1001@gmail.com"
               className="p-2 rounded-full border border-border hover:border-primary hover:bg-primary/10 transition-all text-foreground hover:text-primary"
               aria-label="Email"
             >
@@ -73,13 +73,13 @@ const Footer = () => {
                   Projects
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#blog" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="/Vivek_Choudhary_Resume.pdf" download className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <a href="/Seyi-Olaore Stephen.pdf" download className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Resume ↗
                 </a>
               </li>
@@ -92,19 +92,19 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="text-muted-foreground text-sm">Ready to work together?</p>
               <a 
-                href="mailto:iamvivekchoudhary77@gmail.com" 
+                href="mailto:etyz1001@gmail.com" 
                 className="text-primary hover:text-primary/80 transition-colors text-sm font-medium block"
               >
-                iamvivekchoudhary77@gmail.com
+                etyz1001@gmail.com
               </a>
-              <p className="text-muted-foreground text-sm">Boston, Massachusetts, USA</p>
+              <p className="text-muted-foreground text-sm">Kwara State, Nigeria</p>
             </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border/50 text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Vivek Choudhary
+            © {new Date().getFullYear()} Stephen Seyi-Olaore
           </p>
           <p className="text-muted-foreground text-sm">
             All rights reserved.

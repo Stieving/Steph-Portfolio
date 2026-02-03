@@ -4,44 +4,71 @@ import { MapPin, Calendar, Zap, Code } from "lucide-react";
 
 const experiences = [
   {
-    title: "Graduate Teaching Assistant",
-    company: "Worcester Polytechnic Institute",
-    period: "Aug 2025 – Present",
-    location: "Worcester, Massachusetts, USA",
-    logo: "/WPI_logo.png",
+    title: "NYSC Internship",
+    company: "University of Ibadan",
+    period: "Sep 2023 – Jun 2024",
+    location: "Nigeria",
+    logo: "/UI_logo.png",
     achievements: [
-      "Support 35 graduate students in CS-548 Knowledge Discovery and Data Mining coursework through weekly office hours",
-      "Guide students on classification, clustering, regression, and real-world data mining projects",
-      "Assist with complex concepts in machine learning algorithms and practical implementations"
+      "Led a digitalization project within the Institute of African Studies to modernize archival systems",
+      "Managed website operations and server maintenance to ensure 100% uptime and performance",
+      "Developed internal tools using Python to automate data entry and reporting tasks, reducing manual effort by 30%",
     ],
-    technologies: ["Python", "Machine Learning", "Data Mining", "Teaching"]
+    technologies: ["JavaScript", "Python", "Node JS", "React", "SQL", "MongoDB"]
   },
   {
-    title: "Full Stack Engineer",
-    company: "Volkswagen Digital Solutions India",
-    period: "Aug 2022 – Nov 2024",
-    location: "Gurgaon, India",
-    logo: "/VW_logo.jpeg",
+    title: "Freelance Web Developer & Designer",
+    company: "Upwork",
+    period: "2023 – 2026",
+    location: "Remote",
+    logo: "/upwork_logo.png",
     achievements: [
-      "Curtailed production runtime errors by 50% for a Taiwan-based dealer management system serving 100+ dealers by redesigning REST API integrations in Vue.js and React",
-      "Resolved 100+ critical UI, backend, and database bugs through root cause analysis and end-to-end debugging, improving system stability by 40%",
-      "Architected automated multi-language support using PostgreSQL, LINQ, and microservices to localize 250+ text labels",
-      "Coordinated production rollouts for 100+ dealers with a 3-person team, reducing deployment downtime significantly",
-      "Improved billing report generation speed by 30% using DevExpress and optimized database stored procedures"
+      "Designed and developed full-featured e-commerce platforms using the MERN stack (MongoDB, Express, React, Node.js)",
+      "Integrated secure payment gateways and user authentication protocols for client projects",
+      "Implemented SEO best practices and responsive design, significantly improving client search rankings and user retention",
+      "Created personal portfolio websites utilizing advanced CSS animations and JavaScript frameworks to showcase client work effectively"
     ],
-    technologies: ["Vue.js", "React", "JavaScript", "PostgreSQL", ".NET Core", "Azure DevOps", "Visual Studio", "Git", "DevExpress", "LINQ"]
+    technologies: ["React", "Node JS", "Express JS", "MongoDB", "JavaScript", "CSS", "SEO"]
   },
   {
-    title: "Software Engineer Intern",
-    company: "Myridius x Aethereus",
-    period: "Jan 2022 – Mar 2022",
-    location: "Pune, India",
-    logo: "/MxA.jpeg",
+    title: "Graphic Designer & Motion Artist",
+    company: "Freelance",
+    period: "2021 – 2026",
+    location: "Remote",
+    logo: "/design_logo.png",
     achievements: [
-      "Minimized manual CRM work by 20% and boosted system reliability by 30% by building 10+ Salesforce triggers and workflows",
-      "Debugged complex Apex code alongside senior engineers to resolve critical system issues"
+      "Developed comprehensive UI/UX designs for web and mobile applications to enhance user engagement",
+      "Produced high-quality motion graphics and video content for YouTube channels using Capcut and Alight Motion",
+      "Managed multiple design projects simultaneously, delivering custom logos and marketing materials using Adobe Creative Suite",
+      "Utilized Adobe After Effects for complex motion graphics projects and visual effects"
     ],
-    technologies: ["Salesforce", "Apex Programming", "CRM", "Salesforce Workflows"]
+    technologies: ["Adobe Photoshop", "Adobe Illustrator", "Figma", "After Effects", "Capcut", "Alight Motion", "Canva"]
+  },
+  {
+    title: "Siwes Internship",
+    company: "Femtech PC Clinic",
+    period: "2019",
+    location: "Ilorin, Nigeria",
+    logo: "/femtech_logo.png",
+    achievements: [
+      "Gained hands-on experience in computer hardware diagnostics and software troubleshooting",
+      "Assisted in technical support and system maintenance for a wide range of client devices"
+    ],
+    technologies: ["Hardware Tech", "Troubleshooting", "System Maintenance"]
+  },
+  {
+    title: "Fintech Internship",
+    company: "Fipay",
+    period: "Sep 2023 – Jun 2024",
+    location: "Nigeria",
+    logo: "/fipay_logo.png",
+    achievements: [
+      "Enhanced transaction processing logic, reducing API response latency by [20%] and ensuring sub-second execution for real-time payments.",
+      "Developed and maintained [10+] reusable UI components for a fintech dashboard, ensuring a consistent user experience across web and mobile platforms [cite: 40]",
+      "Collaborated with cross-functional teams to implement secure fintech solutions",
+      "Revamped the payment checkout UI using React and Tailwind CSS, resulting in a [12%] increase in successful transaction completion rates."
+    ],
+    technologies: ["JavaScript", "Python", "Node JS", "React", "SQL", "MongoDB"]
   }
 ];
 
@@ -53,30 +80,25 @@ const Experience = () => {
           <span className="gradient-text">Professional</span> Journey
         </h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-          Built scalable enterprise solutions and driving innovation through full-stack development and artificial intelligence
+          Skilled Computer Science graduate specializing in full-stack development, 
+          UI/UX design, and motion graphics.
         </p>
 
         <div className="relative">
-          {/* Timeline Line */}
           <div className="absolute left-8 md:left-1/2 md:transform md:-translate-x-0.5 top-0 bottom-0 w-0.5 bg-primary/30"></div>
 
           <div className="space-y-12">
             {experiences.map((exp, index) => (
               <div key={index} className="relative">
-                {/* Timeline Dot */}
                 <div className="absolute left-6 md:left-1/2 md:transform md:-translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-background shadow-lg z-10"></div>
 
-                {/* Experience Card */}
                 <div className={`ml-16 md:ml-0 md:w-5/12 ${index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'}`}>
                   <Card className="p-6 card-hover bg-card border-border shadow-lg">
-                    {/* Header with Logo */}
                     <div className="flex items-start gap-4 mb-4">
                       <div className="flex-shrink-0">
-                        <img 
-                          src={exp.logo} 
-                          alt={`${exp.company} logo`}
-                          className="w-12 h-12 rounded-lg object-contain bg-white p-1 border border-border"
-                        />
+                        <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center border border-border">
+                          <Code className="text-primary w-6 h-6" />
+                        </div>
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-foreground mb-1">{exp.title}</h3>
@@ -94,7 +116,6 @@ const Experience = () => {
                       </div>
                     </div>
 
-                    {/* Key Achievements */}
                     <div className="mb-4">
                       <h4 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-1">
                         <Zap className="w-3 h-3 text-primary" />
@@ -110,7 +131,6 @@ const Experience = () => {
                       </ul>
                     </div>
 
-                    {/* Technologies */}
                     <div>
                       <h4 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-1">
                         <Code className="w-3 h-3 text-primary" />

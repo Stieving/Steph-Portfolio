@@ -5,37 +5,42 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Jerai",
-    description: "Developed an automated bug-fixing system using Cerebras, Llama 3.3, and Docker MCP that analyzes code issues, generates patches, and runs tests in 10-15 seconds",
+    title: "SMK solar",
+    description: "Developed a website for a solar company using Wordpress and custom JQuery scripts to enhance user experience and SEO performance.",
     achievements: [
-      "Integrated RAG with ChromaDB vector database to retrieve relevant code context and similar bug patterns",
-      "Improved patch generation accuracy with semantic code search and pattern matching"
+      "Integrated Open Graph meta tags for improved social media sharing",
+      "Improved site performance by 30% through optimized JQuery code",
+      "Integrated Vue.js components for dynamic content rendering"
     ],
-    technologies: ["Flask", "Python", "Docker", "MCP", "Cerebras", "Llama 3.3", "Railway", "Vercel", "TypeScript", "RAG", "ChromaDB"],
-    github: "https://github.com/VivekChoudhary77/Jerai",
-    period: "Oct 2025"
+    technologies: ["Wordpress", "JQuery", "Vue.js", "Open Graph", "TypeScript"],
+    github: "https://smksolar.com.ng",
+    period: "Jun 2025"
   },
   {
-    title: "CampusCashControl",
-    description: "Built a Django/Vue.js application that automates spreadsheet uploads and generates Tableau dashboards, accelerating campus budget reconciliation by 25% and data processing by 70%",
+    title: "Abulesowo",
+    description: "Built a website for a real estate company using React.js and TypeScript, focusing on SEO optimization with Open Graph integration.",
     achievements: [
-      "Implemented role-based access control using Vue.js and JWT authentication to secure sensitive financial data",
-      "Created PostgreSQL stored procedures for optimized data processing"
+      "Implemented Open Graph meta tags for enhanced social media visibility",
+      "Integrated dynamic property listings with React.js",
+      "Improved site SEO leading to a 25% increase in organic traffic",
+      "Developed reusable TypeScript components for faster development",
     ],
-    technologies: ["Django", "Vue.js", "Python", "Tableau", "JWT", "PostgreSQL"],
-    github: "https://github.com/VivekChoudhary77/CS-542-CampusCashControl",
+    technologies: ["React.js", "Open Graph", "TypeScript"],
+    github: "https://www.abulesowo.ng",
     period: "Feb 2025 – May 2025"
   },
   {
-    title: "Textify",
-    description: "Developed an NLP application using Flask, NLTK, and GPT-2 (PyTorch) that summarizes articles and generates text through a web interface in under 10 seconds",
+    title: "Woocommerce Store",
+    description: "Developed a Woocommerce store using just wordpress and the twenty twentyfive theme. Implemented custom functionalities using JavaScript and Typescript to enhance user experience and streamline operations.",
     achievements: [
-      "Integrated PyTorch for GPT-2 text generation with optimized inference",
-      "Built responsive web interface with AJAX for real-time processing"
+      "Integrated payment gateways and optimized checkout process",
+      "Built responsive product pages with custom scripts for better user engagement",
+      "Enhanced site SEO with structured data and meta tags",
+      "Implemented inventory management features using Typescript"
     ],
-    technologies: ["Flask", "Python", "HuggingFace", "Machine Learning", "NLP", "NLTK", "PyTorch", "JavaScript"],
-    github: "https://github.com/VivekChoudhary77/Textify-text-Preprocessing",
-    period: "April 2021 – June 2021"
+    technologies: ["WordPress", "PHP", "JavaScript", "Typescript"],
+    github: "https://github.com/Stieving/Woo",
+    period: "Jan 2026"
   }
 ];
 
