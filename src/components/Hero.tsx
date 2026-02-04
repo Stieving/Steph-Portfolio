@@ -14,10 +14,10 @@ const Hero = () => {
               <MultilingualGreeting />
             </h1>
             <p className="text-xl md:text-2xl text-foreground mb-4 font-semibold">
-              Full Stack Engineer & Graphics Designer
+              Full Stack Software Developer
             </p>
             <p className="text-lg text-muted-foreground max-w-3xl lg:max-w-none mb-8 leading-relaxed">
-              Building modern web applications powered by solid full-stack engineering and elevated by thoughtful graphic design. 
+              Building modern web applications powered by solid full-stack engineering and elevated by thoughtful design. 
               I bridge logic and aesthetics to create scalable, high-performing, and visually striking digital experiences.
             </p>
           </div>

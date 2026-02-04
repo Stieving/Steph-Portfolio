@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div className="text-left">
               <div className="text-sm font-medium text-foreground">BSc in Computer Science</div>
-              <div className="text-xs text-muted-foreground">Ojaja University • GPA 4.43/5.0</div>
+              <div className="text-xs text-muted-foreground">Ojaja University • GPA 4.33/5.0</div>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6 text-foreground">My Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With a strong foundation in Computer Science and several years of hands-on experience across full-stack development and graphic design, I’ve worked on a wide range of digital products—from custom websites and e-commerce platforms to UI/UX-driven applications and motion graphics projects. My work spans both independent freelance projects and structured team environments, including internships and institutional digitalization initiatives.
+                With a strong foundation in Computer Science and several years of hands-on experience across full-stack development, I’ve worked on a wide range of digital products—from custom websites and e-commerce platforms to UI/UX-driven software and web application projects. My work spans both independent freelance projects and structured team environments, including internships and institutional digitalization initiatives.
               </p>
               
               <p>
@@ -115,7 +115,7 @@ const About = () => {
               <div>
                 <h4 className="font-semibold text-foreground mb-2">I Build Solutions That Work and Looks Right</h4>
                 <p className="text-muted-foreground leading-relaxed">
-                  As a full-stack developer with a strong background in graphic design, I don’t just build functional systems — I build products that users actually enjoy using. I bridge the gap between logic and visuals, ensuring that applications are both technically sound and visually compelling. This means fewer design-to-dev disconnects and faster delivery of polished results.
+                  As a full-stack developer with a strong background in design, I don’t just build functional systems — I build products that users actually enjoy using. I bridge the gap between logic and visuals, ensuring that applications are both technically sound and visually compelling. This means fewer design-to-dev disconnects and faster delivery of polished results.
                 </p>
               </div>
             </div>

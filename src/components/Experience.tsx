@@ -14,10 +14,10 @@ const experiences = [
       "Managed website operations and server maintenance to ensure 100% uptime and performance",
       "Developed internal tools using Python to automate data entry and reporting tasks, reducing manual effort by 30%",
     ],
-    technologies: ["JavaScript", "Python", "Node JS", "React", "SQL", "MongoDB"]
+    technologies: ["JavaScript", "Python", "Node JS", "React", "SQL"]
   },
   {
-    title: "Freelance Web Developer & Designer",
+    title: "Freelance Web Developer",
     company: "Upwork",
     period: "2023 – 2026",
     location: "Remote",
@@ -29,20 +29,6 @@ const experiences = [
       "Created personal portfolio websites utilizing advanced CSS animations and JavaScript frameworks to showcase client work effectively"
     ],
     technologies: ["React", "Node JS", "Express JS", "MongoDB", "JavaScript", "CSS", "SEO"]
-  },
-  {
-    title: "Graphic Designer & Motion Artist",
-    company: "Freelance",
-    period: "2021 – 2026",
-    location: "Remote",
-    logo: "/design_logo.png",
-    achievements: [
-      "Developed comprehensive UI/UX designs for web and mobile applications to enhance user engagement",
-      "Produced high-quality motion graphics and video content for YouTube channels using Capcut and Alight Motion",
-      "Managed multiple design projects simultaneously, delivering custom logos and marketing materials using Adobe Creative Suite",
-      "Utilized Adobe After Effects for complex motion graphics projects and visual effects"
-    ],
-    technologies: ["Adobe Photoshop", "Adobe Illustrator", "Figma", "After Effects", "Capcut", "Alight Motion", "Canva"]
   },
   {
     title: "Siwes Internship",
@@ -68,7 +54,7 @@ const experiences = [
       "Collaborated with cross-functional teams to implement secure fintech solutions",
       "Revamped the payment checkout UI using React and Tailwind CSS, resulting in a [12%] increase in successful transaction completion rates."
     ],
-    technologies: ["JavaScript", "Python", "Node JS", "React", "SQL", "MongoDB"]
+    technologies: ["JavaScript", "Python", "Node JS", "React", "MongoDB"]
   }
 ];
 
